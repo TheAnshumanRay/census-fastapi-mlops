@@ -1,0 +1,495 @@
+Feature: workclass=Private
+Precision: 0.738
+Recall: 0.640
+Fbeta: 0.686
+
+Feature: workclass=State-gov
+Precision: 0.742
+Recall: 0.671
+Fbeta: 0.705
+
+Feature: workclass=Self-emp-not-inc
+Precision: 0.706
+Recall: 0.490
+Fbeta: 0.579
+
+Feature: workclass=Self-emp-inc
+Precision: 0.781
+Recall: 0.754
+Fbeta: 0.767
+
+Feature: workclass=Federal-gov
+Precision: 0.797
+Recall: 0.786
+Fbeta: 0.791
+
+Feature: workclass=Local-gov
+Precision: 0.758
+Recall: 0.682
+Fbeta: 0.718
+
+Feature: workclass=?
+Precision: 0.654
+Recall: 0.405
+Fbeta: 0.500
+
+Feature: workclass=Without-pay
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: education=Some-college
+Precision: 0.686
+Recall: 0.520
+Fbeta: 0.591
+
+Feature: education=HS-grad
+Precision: 0.659
+Recall: 0.438
+Fbeta: 0.526
+
+Feature: education=Bachelors
+Precision: 0.752
+Recall: 0.729
+Fbeta: 0.740
+
+Feature: education=Masters
+Precision: 0.827
+Recall: 0.855
+Fbeta: 0.841
+
+Feature: education=Assoc-acdm
+Precision: 0.700
+Recall: 0.596
+Fbeta: 0.644
+
+Feature: education=7th-8th
+Precision: 0.000
+Recall: 0.000
+Fbeta: 1.000
+
+Feature: education=11th
+Precision: 1.000
+Recall: 0.273
+Fbeta: 0.429
+
+Feature: education=Assoc-voc
+Precision: 0.647
+Recall: 0.524
+Fbeta: 0.579
+
+Feature: education=Prof-school
+Precision: 0.818
+Recall: 0.964
+Fbeta: 0.885
+
+Feature: education=9th
+Precision: 1.000
+Recall: 0.333
+Fbeta: 0.500
+
+Feature: education=5th-6th
+Precision: 1.000
+Recall: 0.500
+Fbeta: 0.667
+
+Feature: education=10th
+Precision: 0.400
+Recall: 0.167
+Fbeta: 0.235
+
+Feature: education=Doctorate
+Precision: 0.864
+Recall: 0.895
+Fbeta: 0.879
+
+Feature: education=12th
+Precision: 1.000
+Recall: 0.400
+Fbeta: 0.571
+
+Feature: education=1st-4th
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: education=Preschool
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: marital-status=Divorced
+Precision: 0.760
+Recall: 0.369
+Fbeta: 0.497
+
+Feature: marital-status=Married-civ-spouse
+Precision: 0.735
+Recall: 0.690
+Fbeta: 0.712
+
+Feature: marital-status=Never-married
+Precision: 0.830
+Recall: 0.427
+Fbeta: 0.564
+
+Feature: marital-status=Separated
+Precision: 1.000
+Recall: 0.421
+Fbeta: 0.593
+
+Feature: marital-status=Widowed
+Precision: 1.000
+Recall: 0.158
+Fbeta: 0.273
+
+Feature: marital-status=Married-spouse-absent
+Precision: 1.000
+Recall: 0.250
+Fbeta: 0.400
+
+Feature: marital-status=Married-AF-spouse
+Precision: 1.000
+Recall: 0.000
+Fbeta: 0.000
+
+Feature: occupation=Adm-clerical
+Precision: 0.634
+Recall: 0.469
+Fbeta: 0.539
+
+Feature: occupation=Exec-managerial
+Precision: 0.795
+Recall: 0.753
+Fbeta: 0.774
+
+Feature: occupation=Machine-op-inspct
+Precision: 0.594
+Recall: 0.404
+Fbeta: 0.481
+
+Feature: occupation=Craft-repair
+Precision: 0.657
+Recall: 0.486
+Fbeta: 0.559
+
+Feature: occupation=Prof-specialty
+Precision: 0.788
+Recall: 0.768
+Fbeta: 0.778
+
+Feature: occupation=Sales
+Precision: 0.727
+Recall: 0.667
+Fbeta: 0.696
+
+Feature: occupation=Handlers-cleaners
+Precision: 0.571
+Recall: 0.333
+Fbeta: 0.421
+
+Feature: occupation=Other-service
+Precision: 1.000
+Recall: 0.192
+Fbeta: 0.323
+
+Feature: occupation=Protective-serv
+Precision: 0.735
+Recall: 0.595
+Fbeta: 0.658
+
+Feature: occupation=Priv-house-serv
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: occupation=Transport-moving
+Precision: 0.625
+Recall: 0.469
+Fbeta: 0.536
+
+Feature: occupation=?
+Precision: 0.654
+Recall: 0.405
+Fbeta: 0.500
+
+Feature: occupation=Farming-fishing
+Precision: 0.545
+Recall: 0.214
+Fbeta: 0.308
+
+Feature: occupation=Tech-support
+Precision: 0.714
+Recall: 0.686
+Fbeta: 0.700
+
+Feature: occupation=Armed-Forces
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: relationship=Not-in-family
+Precision: 0.796
+Recall: 0.415
+Fbeta: 0.545
+
+Feature: relationship=Wife
+Precision: 0.713
+Recall: 0.678
+Fbeta: 0.695
+
+Feature: relationship=Husband
+Precision: 0.737
+Recall: 0.692
+Fbeta: 0.714
+
+Feature: relationship=Unmarried
+Precision: 0.923
+Recall: 0.267
+Fbeta: 0.414
+
+Feature: relationship=Own-child
+Precision: 1.000
+Recall: 0.176
+Fbeta: 0.300
+
+Feature: relationship=Other-relative
+Precision: 1.000
+Recall: 0.375
+Fbeta: 0.545
+
+Feature: race=White
+Precision: 0.740
+Recall: 0.637
+Fbeta: 0.685
+
+Feature: race=Black
+Precision: 0.727
+Recall: 0.615
+Fbeta: 0.667
+
+Feature: race=Other
+Precision: 1.000
+Recall: 0.667
+Fbeta: 0.800
+
+Feature: race=Asian-Pac-Islander
+Precision: 0.786
+Recall: 0.710
+Fbeta: 0.746
+
+Feature: race=Amer-Indian-Eskimo
+Precision: 0.625
+Recall: 0.500
+Fbeta: 0.556
+
+Feature: sex=Female
+Precision: 0.723
+Recall: 0.515
+Fbeta: 0.602
+
+Feature: sex=Male
+Precision: 0.745
+Recall: 0.660
+Fbeta: 0.700
+
+Feature: native-country=United-States
+Precision: 0.739
+Recall: 0.632
+Fbeta: 0.681
+
+Feature: native-country=Mexico
+Precision: 1.000
+Recall: 0.333
+Fbeta: 0.500
+
+Feature: native-country=Puerto-Rico
+Precision: 0.833
+Recall: 0.833
+Fbeta: 0.833
+
+Feature: native-country=El-Salvador
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=?
+Precision: 0.750
+Recall: 0.677
+Fbeta: 0.712
+
+Feature: native-country=Columbia
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Poland
+Precision: 0.667
+Recall: 1.000
+Fbeta: 0.800
+
+Feature: native-country=Cambodia
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Germany
+Precision: 0.846
+Recall: 0.846
+Fbeta: 0.846
+
+Feature: native-country=Philippines
+Precision: 1.000
+Recall: 0.688
+Fbeta: 0.815
+
+Feature: native-country=Canada
+Precision: 0.667
+Recall: 0.750
+Fbeta: 0.706
+
+Feature: native-country=Ecuador
+Precision: 1.000
+Recall: 0.500
+Fbeta: 0.667
+
+Feature: native-country=Italy
+Precision: 0.750
+Recall: 0.750
+Fbeta: 0.750
+
+Feature: native-country=Cuba
+Precision: 0.667
+Recall: 0.800
+Fbeta: 0.727
+
+Feature: native-country=Iran
+Precision: 0.333
+Recall: 0.200
+Fbeta: 0.250
+
+Feature: native-country=Jamaica
+Precision: 0.000
+Recall: 1.000
+Fbeta: 0.000
+
+Feature: native-country=Haiti
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=South
+Precision: 0.333
+Recall: 0.500
+Fbeta: 0.400
+
+Feature: native-country=Taiwan
+Precision: 0.750
+Recall: 0.750
+Fbeta: 0.750
+
+Feature: native-country=Dominican-Republic
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Ireland
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Japan
+Precision: 0.750
+Recall: 0.750
+Fbeta: 0.750
+
+Feature: native-country=Scotland
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=India
+Precision: 0.875
+Recall: 0.875
+Fbeta: 0.875
+
+Feature: native-country=Trinadad&Tobago
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Hungary
+Precision: 1.000
+Recall: 0.500
+Fbeta: 0.667
+
+Feature: native-country=England
+Precision: 0.667
+Recall: 0.500
+Fbeta: 0.571
+
+Feature: native-country=Laos
+Precision: 1.000
+Recall: 0.000
+Fbeta: 0.000
+
+Feature: native-country=Hong
+Precision: 0.500
+Recall: 1.000
+Fbeta: 0.667
+
+Feature: native-country=Greece
+Precision: 0.000
+Recall: 0.000
+Fbeta: 1.000
+
+Feature: native-country=Portugal
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Guatemala
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=China
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=France
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Nicaragua
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Vietnam
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Thailand
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Peru
+Precision: 0.000
+Recall: 0.000
+Fbeta: 1.000
+
+Feature: native-country=Honduras
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
+Feature: native-country=Yugoslavia
+Precision: 1.000
+Recall: 1.000
+Fbeta: 1.000
+
