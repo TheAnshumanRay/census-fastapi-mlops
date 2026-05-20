@@ -29,14 +29,14 @@ lb = joblib.load(
 
 
 cat_features = [
-    "workclass",
-    "education",
-    "marital-status",
-    "occupation",
-    "relationship",
-    "race",
-    "sex",
-    "native-country",
+    " workclass",
+    " education",
+    " marital-status",
+    " occupation",
+    " relationship",
+    " race",
+    " sex",
+    " native-country",
 ]
 
 
@@ -55,15 +55,9 @@ class CensusData(BaseModel):
         example="Bachelors"
     )
 
-    education_num: int = Field(
-        alias="education-num",
-        example=13
-    )
+    education_num: int = Field(alias="education-num")
 
-    marital_status: str = Field(
-        alias="marital-status",
-        example="Married-civ-spouse"
-    )
+    marital_status: str = Field(alias="marital-status")
 
     occupation: str = Field(
         example="Exec-managerial"
@@ -81,25 +75,13 @@ class CensusData(BaseModel):
         example="Male"
     )
 
-    capital_gain: int = Field(
-        alias="capital-gain",
-        example=0
-    )
+    capital_gain: int = Field(alias="capital-gain")
 
-    capital_loss: int = Field(
-        alias="capital-loss",
-        example=0
-    )
+    capital_loss: int = Field(alias="capital-loss")
 
-    hours_per_week: int = Field(
-        alias="hours-per-week",
-        example=40
-    )
+    hours_per_week: int = Field(alias="hours-per-week")
 
-    native_country: str = Field(
-        alias="native-country",
-        example="United-States"
-    )
+    native_country: str = Field(alias="native-country")
 
     class Config:
         allow_population_by_field_name = True
@@ -113,7 +95,7 @@ def welcome():
 @app.post("/predict")
 def predict(data: CensusData):
 
-    data_df = pd.DataFrame([data.dict()])
+    data_df = pd.DataFrame([data.dict(by_alias=True)])
 
     X, _, _, _ = process_data(
         data_df,
