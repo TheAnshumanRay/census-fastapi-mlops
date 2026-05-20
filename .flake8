@@ -1,0 +1,17 @@
+[flake8]
+exclude =
+    .git,
+    __pycache__,
+    .pytest_cache,
+    starter/sanitycheck.py
+
+ignore =
+    E501,
+    W503,
+    E402,
+    W292,
+    W391,
+    E303,
+    E122
+
+max-line-length = 88

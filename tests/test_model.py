@@ -10,7 +10,7 @@ sys.path.append(
 import numpy as np
 from sklearn.ensemble import RandomForestClassifier
 
-from starter.starter.ml.model import (
+from starter.ml.model import (
     train_model,
     compute_model_metrics,
     inference

@@ -3,17 +3,29 @@ from pydantic import BaseModel, Field
 import pandas as pd
 import joblib
 
-from starter.starter.ml.data import process_data
-from starter.starter.ml.model import inference
+from starter.ml.data import process_data
+from starter.ml.model import inference
 
 
 app = FastAPI()
 
 
 # Load model artifacts
-model = joblib.load("model/model.pkl")
-encoder = joblib.load("model/encoder.pkl")
-lb = joblib.load("model/lb.pkl")
+import os
+
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+
+model = joblib.load(
+    os.path.join(BASE_DIR, "..", "model", "model.pkl")
+)
+
+encoder = joblib.load(
+    os.path.join(BASE_DIR, "..", "model", "encoder.pkl")
+)
+
+lb = joblib.load(
+    os.path.join(BASE_DIR, "..", "model", "lb.pkl")
+)
 
 
 cat_features = [
