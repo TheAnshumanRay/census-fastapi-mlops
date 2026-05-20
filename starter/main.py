@@ -113,25 +113,18 @@ def welcome():
 @app.post("/predict")
 def predict(data: CensusData):
 
-    data_dict = data.dict(by_alias=True)
-
-    df = pd.DataFrame([data_dict])
+    data_df = pd.DataFrame([data.dict()])
 
     X, _, _, _ = process_data(
-        df,
+        data_df,
         categorical_features=cat_features,
         training=False,
         encoder=encoder,
         lb=lb
     )
 
-    prediction = inference(model, X)[0]
+    prediction = inference(model, X)
 
-    if prediction == 1:
-        result = ">50K"
-    else:
-        result = "<=50K"
+    result = lb.inverse_transform(prediction)[0]
 
-    return {
-        "prediction": result
-    }
+    return {"prediction": result}
