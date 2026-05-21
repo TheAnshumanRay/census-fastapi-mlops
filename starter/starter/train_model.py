@@ -59,9 +59,9 @@ print("Precision:", precision)
 print("Recall:", recall)
 print("Fbeta:", fbeta)
 
-joblib.dump(model, "model/model.pkl")
-joblib.dump(encoder, "model/encoder.pkl")
-joblib.dump(lb, "model/lb.pkl")
+joblib.dump(model, "starter/model/model.pkl")
+joblib.dump(encoder, "starter/model/encoder.pkl")
+joblib.dump(lb, "starter/model/lb.pkl")
 
 with open("slice_output.txt", "w") as file:
 
