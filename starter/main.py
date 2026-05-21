@@ -16,15 +16,15 @@ import os
 BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 
 model = joblib.load(
-    os.path.join(BASE_DIR, "..", "model", "model.pkl")
+    os.path.join(BASE_DIR, "model", "model.pkl")
 )
 
 encoder = joblib.load(
-    os.path.join(BASE_DIR, "..", "model", "encoder.pkl")
+    os.path.join(BASE_DIR, "model", "encoder.pkl")
 )
 
 lb = joblib.load(
-    os.path.join(BASE_DIR, "..", "model", "lb.pkl")
+    os.path.join(BASE_DIR, "model", "lb.pkl")
 )
 
 
